@@ -1,66 +1,58 @@
 body {
 	font-family: Arial, "Times New Roman", sans-serif;
 	padding: 10px 30px 10px 30px;
-	border: 30px solid #005500;
 	margin: 0;
 }
 
-.main-title{
+h2 {
+	text-align: center;
+	text-decoration: underline;
+	margin: 20px auto 25px auto;
+}
+
+h3 {
+	margin: 15px auto 4px 15px;
+}
+
+.main-title {
 	text-align: center;
 	text-decoration: underline;
 	padding: 0;
 	margin: 10px auto 0px auto;
 }
 
-.info-list{
+.info-list {
 	text-align: center;
-	margin: 0 0 20px 0;
-}
-
-.info-list li{
-	font-size: 12px;
-	font-weight: bold;
-	display: inline;
-	padding: 0 5px 0 0;
-	border-right: 2px solid #888888;
 	margin: 0 auto 0 auto;
 }
 
-.info-list li:first-child{
-	border-left: 0 solid #888888;
-}
-
-.info-list li:last-child{
-	border-right: 0 solid #888888;
-}
-
-p {
-	margin: 10px 0 10px 0;
-	font-size: 15px;
-	line-height: 18px;
-}
-
-h2 {
+.info-list li {
+	font-size: 12px;
 	text-align: center;
-	text-decoration: underline;
-	margin: 20px auto 20px auto;
+	font-weight: bold;
+	display: inline;
+	padding: 0 5px 0 0;
+	border-right: 2px solid #000000;
 }
 
-.job-title {
-	margin: 15px auto 4px 15px;
+.info-list li:last-child {
+	border-right: 0;
 }
 
-.job-list{
+.job-list {
 	margin: 0 auto 0 30px;
 	list-style-type: none;
+	
 }
 
-.job-list li{
+.job-list li {
 	margin: 0 0 2px 0;
 }
 
-.skills-list{
+.skill-body {
 	margin: 0 0 0 30px;
-	font-size: 14px;
-	font-style: italic;
+}
+
+.personal-body {
+	margin: 0 0 0 15px;
 }
