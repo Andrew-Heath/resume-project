@@ -1,10 +1,15 @@
+
+!body, h1, h2, h3, ul, ol, p, div {
+!  margin: 10px;
+!}
+
 body {
   font-family: Arial, "Times New Roman", sans-serif;
   margin: 30px 30px 30px 30px;
 }
 
 h1 {
-  margin: 0;
+  !margin: 0;
   text-align: center;
   text-decoration: underline;
 }
@@ -12,21 +17,21 @@ h1 {
 h2 {
   text-align: center;
   text-decoration: underline;
-  margin: 20px auto 25px auto;
+  !margin: 0;
 }
 
 h3 {
-  margin: 0 15px 0 15px;
+  margin: 5px 15px 0 15px;
 }
 
 div {
   padding: 5px;
-  !border: 2px solid #000000;
+  border: 2px solid #000000;
   margin: 5px;
 }
 
 p {
-  margin: 0 40px 0 40px;
+  !margin: 0;
 }
 
 .info-list {
@@ -35,6 +40,11 @@ p {
 }
 
 .job-list {
+  list-style-type: none;
+  margin: 0;  
+}
+
+.skill-list {
   list-style-type: none;
   margin: 0;  
 }
