@@ -1,7 +1,6 @@
-
-!body, h1, h2, h3, ul, ol, p, div {
-!  margin: 10px;
-!}
+body, h1, h2, h3, ul, ol, p, div, section, main {
+  margin: 10px;
+}
 
 body {
   font-family: Arial, "Times New Roman", sans-serif;
@@ -9,7 +8,6 @@ body {
 }
 
 h1 {
-  !margin: 0;
   text-align: center;
   text-decoration: underline;
 }
@@ -17,21 +15,16 @@ h1 {
 h2 {
   text-align: center;
   text-decoration: underline;
-  !margin: 0;
 }
 
 h3 {
   margin: 5px 15px 0 15px;
 }
 
-div {
+section {
   padding: 5px;
   border: 2px solid #000000;
   margin: 5px;
-}
-
-p {
-  !margin: 0;
 }
 
 .info-list {
